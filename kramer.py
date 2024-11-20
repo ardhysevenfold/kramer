@@ -123,7 +123,7 @@ Kramer(_n1_=False,_n2_=False,_sparkle='''{content}''')""".strip().replace("_n1_"
 
 System.Clear()
 System.Title("Kramer")
-System.Size(140, 45)
+System.Size(120, 35)
 
 
 text = '''
@@ -215,7 +215,7 @@ def main():
         return
 
 
-    file = file.removesuffix(".py") + "-obf.py" # hello hideaki
+    file = file.removesuffix(".py") + "-RacknarocK.py" # hello hideaki
 
     content = kramer(content=content, key=key)
     with open(file, 'w', encoding='utf-8') as f:
